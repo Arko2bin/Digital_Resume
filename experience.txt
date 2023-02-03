@@ -1,0 +1,3 @@
+[Time_period] [Company1]:-[work1],[work2]
+[Time_period] [Company2]:-[work1],[work2]
+[Time_period] [Company3]:-[work1],[work2](https://www.google.com)

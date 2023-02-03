@@ -1,0 +1,3 @@
+[School1]:-[Stream1]-[marks1]
+[School2]:-[Stream2]-[marks2]
+[School3]:-[Stream3]-[marks3]
