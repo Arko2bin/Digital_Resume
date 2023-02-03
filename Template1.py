@@ -20,7 +20,8 @@ with st.container(): #Header Part name Image and about
         st.image(profile_image,width=100)
     with left:
         with open("about.txt","r") as about:
-            st.write(about.read())
+            for content in about.read().split("\n"):
+                st.write(content)
     st.write("---")
 
 with st.container(): #Contact details skill experience education certification
