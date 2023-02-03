@@ -1,3 +1,3 @@
-:white_check_mark: [Language1]:-[certifying company1]-[link1],[certifying company2]-[link2]
-:white_check_mark: [Language2]:-[certifying company1]-[link1],[certifying company2]-[link2]
-:white_check_mark: [Language3]:- //leave this blank you don't have any certificates
+:white_check_mark: Bengali(Mother Tounge):-
+:white_check_mark: English(Read,Write and Speak):-
+:white_check_mark: Hindi(Speak):-

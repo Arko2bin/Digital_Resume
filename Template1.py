@@ -30,7 +30,7 @@ with st.container(): #Contact details skill experience education certification
         with open("contact.txt","r") as contact:
             for element in contact.read().split("\n"):
                 try:
-                    st.write(element.split(" - ")[0] + " : " + element.split(" - ")[1])
+                    st.write(element.split(" <> ")[0] + " : " + element.split(" <> ")[1])
                 except Exception:
                     pass
         with open("certificates.txt","r") as skills_cert: #technical skill
@@ -47,7 +47,7 @@ with st.container(): #Contact details skill experience education certification
                         try:
                             certificates = skill_cert.split(":-")[1]
                             for certificate in certificates.split(","):
-                                st.write(":reminder_ribbon: " + certificate.split("-")[0] + " : " + certificate.split("-")[1])
+                                st.write(":reminder_ribbon: " + certificate.split("<>")[0] + " : " + certificate.split("<>")[1])
                         except Exception:
                             st.write(" ")
         with open("languages.txt","r") as lang_certs: #Languages
@@ -64,7 +64,7 @@ with st.container(): #Contact details skill experience education certification
                         try:
                             certificates = lang_cert.split(":-")[1]
                             for certificate in certificates.split(","):
-                                st.write(":reminder_ribbon: " + certificate.split("-")[0] + " : " + certificate.split("-")[1])
+                                st.write(":reminder_ribbon: " + certificate.split("<>")[0] + " : " + certificate.split("<>")[1])
                         except Exception:
                             st.write(" ")
     with left: #job experience and Education

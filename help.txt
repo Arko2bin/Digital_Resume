@@ -12,21 +12,21 @@ Profile
 
 Contacts
 ----------
-:telephone_receiver: - [Your phone number]
-:house: - [your address]
-:e-mail: - [your mail id]
-:link: - [Your external link] //you can remove this to remove external links
+:telephone_receiver: <> [Your phone number]
+:house: <> [your address]
+:e-mail: <> [your mail id]
+:link: <> [Your external link] //you can remove this to remove external links
 
 Certificates
 --------------
-[skill1][:star: :star: :star: :star: :star: ]:-[certifying company1]-[link1],[certifying company2]-[link2]
-[skill2]:-[certifying company1]-[link1],[certifying company2]-[link2]
+[skill1][:star: :star: :star: :star: :star: ]:-[certifying company1]<>[link1],[certifying company2]<>[link2]
+[skill2]:-[certifying company1]<>[link1],[certifying company2]<>[link2]
 [skill3]:- //leave this blank you don't have any certificates
 
 Languages
 ---------
-:white_check_mark: [Language1]:-[certifying company1]-[link1],[certifying company2]-[link2]
-:white_check_mark: [Language2]:-[certifying company1]-[link1],[certifying company2]-[link2]
+:white_check_mark: [Language1]:-[certifying company1]<>[link1],[certifying company2]<>[link2]
+:white_check_mark: [Language2]:-[certifying company1]<>[link1],[certifying company2]<>[link2]
 :white_check_mark: [Language3]:- //leave this blank you don't have any certificates
 
 Education
