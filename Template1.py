@@ -40,7 +40,7 @@ with st.container(): #Contact details skill experience education certification
                 skill = skill_cert.split(":-")[0]
                 if(skill):
                     if(flag == 0):
-                        st.header(":bulb: Skills")
+                        st.header(":man-running: Skills")
                         flag = 1
                     else:
                         pass
