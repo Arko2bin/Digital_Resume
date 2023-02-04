@@ -1,3 +1,1 @@
-[05/2022 - present] Assistant System Engineer Trainee at Tata Consultancy services Ltd. Varanasi Uttar Pradesh:-Working for client TCS iON.,Debugging jave code in Eclipse.,Adding new features as per client requirements.,Deploying war file on tomcat server.
-[05/2020 - 03/2022] Graduate Engineer Trainee at HCL technologies Ltd. Noida Uttar Pradesh:-Worked for client Under Armour.,Automating website using selenium.,Automated ticket assiging tool servicenow to auto assign ticket to the person as per rostet record.
-[Time_period] [Company3]:-[work1],[work2](https://www.google.com)
+[12/2020 - 03/2022] Graduate Engineer Trainee at HCL technologies Ltd. Noida Uttar Pradesh:-Worked for client Under Armour.,Automating website using selenium.,Automated ticket assiging tool servicenow to auto assign ticket to the person as per roster record.
