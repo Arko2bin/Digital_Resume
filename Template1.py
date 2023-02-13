@@ -1,5 +1,5 @@
 import streamlit as st
-
+import re
 with open("profile.txt",'r') as source:
     contents = source.read().split("\n")
     profile_image = contents[1]
@@ -98,6 +98,18 @@ with st.container(): #Contact details skill experience education certification
                             works = works_roles.split(" : ")[1]
                             for work in works.split(","):
                                 st.write(":diamond_shape_with_a_dot_inside: " + work)
+                                if ("[video]" in work):
+                                    video_link = re.findall(r'\(([^)]+)\)', work)
+                                    for video in video_link:
+                                        st.video(video)
+                                if ("[audio]" in work):
+                                    audio_link = re.findall(r'\(([^)]+)\)', work)
+                                    for audio in audio_link:
+                                        st.audio(audio)
+                                if ("[image]" in work):
+                                    image_link = re.findall(r'\(([^)]+)\)', work)
+                                    for image in image_link:
+                                        st.image(image)
                         except Exception as e:
                             st.write(" ")
         with open("projects.txt",'r') as projects: #projects undertaken
@@ -118,6 +130,18 @@ with st.container(): #Contact details skill experience education certification
                             st.write(":office: " + location_org_name.split(",")[1])
                             for work in works.split(" : ")[1].split(","):
                                 st.write(":diamond_shape_with_a_dot_inside: " + work)
+                                if("[video]" in work):
+                                    video_link = re.findall(r'\(([^)]+)\)', work)
+                                    for video in video_link:
+                                        st.video(video)
+                                if ("[audio]" in work):
+                                    audio_link = re.findall(r'\(([^)]+)\)', work)
+                                    for audio in audio_link:
+                                        st.audio(audio)
+                                if ("[image]" in work):
+                                    image_link = re.findall(r'\(([^)]+)\)', work)
+                                    for image in image_link:
+                                        st.image(image)
                         except Exception as e:
                             st.write(" ")
         st.header(":classical_building: Education Background") #education
@@ -137,4 +161,3 @@ with st.container(): #Contact details skill experience education certification
                         st.write(":pencil: " + " : " + score)
                     except Exception:
                         st.write(" ")
-
