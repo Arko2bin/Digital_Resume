@@ -1,1 +1,1 @@
-[12/2020 - 03/2022] Graduate Engineer Trainee at HCL technologies Ltd. Noida Uttar Pradesh:-Worked for client Under Armour.,Automating website using selenium.,Automated ticket assiging tool servicenow to auto assign ticket to the person as per roster record.
+22nd December 2020 - 11th March 2022 HCL Technologies Ltd.:-Noida Uttar Pradesh,Graduate Engineer Trainee : Maintaing database and taking incremental backup in weekly basis.,Automating tickting tool service now using python selenium automation.

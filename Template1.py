@@ -1,9 +1,17 @@
 import streamlit as st
+
 with open("profile.txt",'r') as source:
     contents = source.read().split("\n")
     profile_image = contents[1]
     name = contents[0]
 st.set_page_config(page_title='Resume_' + name,layout="wide",page_icon=profile_image)
+
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+local_css("style.css")
+
 hide_streamlit_style = """
                 <style>
                 #MainMenu {visibility: hidden;}
@@ -57,13 +65,15 @@ with st.container(): #Contact details skill experience education certification
                 lang = lang_cert.split(":-")[0]
                 if(lang):
                     if(flag == 0):
-                        st.header(":bulb: Languages Known")
+                        st.header(":ab: Languages Known")
                         flag = 1
                     else:
                         pass
-                    with st.expander(lang):
+                    with st.expander(":ab: " + lang):
                         try:
-                            certificates = lang_cert.split(":-")[1]
+                            capabilities = lang_cert.split(":-")[1]
+                            st.write(capabilities.split(" : ")[0])
+                            certificates = capabilities.split(" : ")[1]
                             for certificate in certificates.split(","):
                                 st.write(":reminder_ribbon: " + certificate.split("<>")[0] + " : " + certificate.split("<>")[1])
                         except Exception:
@@ -81,7 +91,11 @@ with st.container(): #Contact details skill experience education certification
                         pass
                     with st.expander(":briefcase: " + company):
                         try:
-                            works = experience.split(":-")[1]
+                            works_roles = experience.split(":-")[1]
+                            location_roles = works_roles.split(" : ")[0]
+                            st.write(":round_pushpin: " + location_roles.split(",")[0])
+                            st.write(":weight_lifter: " + location_roles.split(",")[1])
+                            works = works_roles.split(" : ")[1]
                             for work in works.split(","):
                                 st.write(":diamond_shape_with_a_dot_inside: " + work)
                         except Exception as e:
@@ -99,21 +113,28 @@ with st.container(): #Contact details skill experience education certification
                     with st.expander(":bulb: " + project_name):
                         try:
                             works = project.split(":-")[1]
-                            org_name = works.split(" : ")[0]
-                            st.write(":office: " + org_name)
+                            location_org_name = works.split(" : ")[0]
+                            st.write(":round_pushpin: " + location_org_name.split(",")[0])
+                            st.write(":office: " + location_org_name.split(",")[1])
                             for work in works.split(" : ")[1].split(","):
                                 st.write(":diamond_shape_with_a_dot_inside: " + work)
                         except Exception as e:
                             st.write(" ")
-        st.header(":school: Education Background") #education
+        st.header(":classical_building: Education Background") #education
         with open("education.txt","r") as ed_certs:
             for ed_cert in ed_certs.read().split("\n"):
-                school = ed_cert.split(":-")[0]
-                with st.expander(":school: " + school):
+                board = ed_cert.split(":-")[0]
+                with st.expander(":classical_building: " + board):
                     try:
-                        certificates = ed_cert.split(":-")[1]
-                        for certificate in certificates.split(","):
-                            st.write(certificate.split("-")[0] + " : " + certificate.split("-")[1])
+                        details = ed_cert.split(":-")[1]
+                        school = details.split("-")[0]
+                        st.write(":school: " + " : " + school)
+                        school_adress = details.split("-")[1]
+                        st.write(":round_pushpin: " + " : " + school_adress)
+                        stream = details.split("-")[2]
+                        st.write(":books: " + " : " + stream)
+                        score = details.split("-")[3]
+                        st.write(":pencil: " + " : " + score)
                     except Exception:
                         st.write(" ")
 

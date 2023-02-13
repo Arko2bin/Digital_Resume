@@ -1,4 +1,6 @@
 Python 3.7.6(:star: :star: :star: :star: :star: ):-Hackerrank<>[click here](https://www.hackerrank.com/certificates/75638bd23f3f),LinkedIn<>[click here](https://www.linkedin.com/posts/arkaprava-mukherjee-1339a4198_linkedinskillassessment-activity-6991709758822989824-WY57?utm_source=share&utm_medium=member_desktop)
-Automation using selenium(:star: :star: :star: :star: ):-Udemy<>[click here](https://udemy-certificate.s3.amazonaws.com/pdf/UC-a1da60d5-5f58-44f6-9f1e-a95ff6ae34d5.pdf)
+Automation using selenium(:star: :star: :star: ):-Udemy<>[click here](https://udemy-certificate.s3.amazonaws.com/pdf/UC-a1da60d5-5f58-44f6-9f1e-a95ff6ae34d5.pdf)
 Machine Learning using python(:star: :star: :star: ):-Tech Learning solutions pvt. ltd.<>[click here](https://drive.google.com/file/d/1pGRrKXaZwHYddWted-KsKMod9LEREm_z/view?usp=share_link)
 PCB Design(:star: :star: :star:):-Tech Learning solutions pvt. ltd.<>[click here](https://drive.google.com/file/d/1TKg37EwOADGG-b6rdaZ7HXv9ef1HmRds/view?usp=share_link)
+MySQL(:star: :star: :star: ):-LinkedIn<>[Click Here](https://www.linkedin.com/posts/arkaprava-mukherjee-1339a4198_linkedinskillassessment-activity-6885254689940738049-iuMY?utm_source=share&utm_medium=member_desktop)
+Java(:star: :star: ):- //Empty

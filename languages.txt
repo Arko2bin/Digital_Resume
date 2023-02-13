@@ -1,3 +1,3 @@
-:white_check_mark: Bengali(Mother Tounge):-
-:white_check_mark: English(Read,Write and Speak):-
-:white_check_mark: Hindi(Speak):-
+Bengali:-:white_check_mark: Read :white_check_mark: Write :white_check_mark: Speak : 
+English:-:white_check_mark: Read :white_check_mark: Write :white_check_mark: Speak : 
+Hindi:-:white_check_mark: Speak :  
