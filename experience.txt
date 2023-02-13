@@ -1,1 +1,1 @@
-22nd December 2020 - 11th March 2022 HCL Technologies Ltd.:-Noida Uttar Pradesh,Graduate Engineer Trainee : Maintaing database and taking incremental backup in weekly basis.,Automating tickting tool service now using python selenium automation.)
+22nd December 2020 - 11th March 2022 HCL Technologies Ltd.:-Noida Uttar Pradesh,Graduate Engineer Trainee : Maintaing database and taking incremental backup in weekly basis.,Automating tickting tool service now using python selenium automation.
