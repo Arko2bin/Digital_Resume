@@ -25,7 +25,7 @@ with st.container(): #Header Part name Image and about
     st.header(name)
     left,right = st.columns(2)
     with right:
-        st.image(profile_image,width=100)
+        st.image(profile_image,width=200)
     with left:
         with open("about.txt","r") as about:
             for content in about.read().split("\n"):
